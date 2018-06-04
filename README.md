@@ -10,7 +10,8 @@ I followed the tutorial word for word with no errors until I got to Debugging wi
 ## Tour of Heroes
 Found [Here] (https://angular.io/guide/quickstart)
 
-Again, I followed the steps word for word until I completed the tutorial. The only problem I encountered was at the end, when configuring the deleteHero method. In the html, the x button was misplaced and I could not replicate the tutorial even with the same code, so instead I incorporated the delete button into the hero-detail component, putting the same functions in and routing the user to the heroes tab with the deleted hero off the list. This helped me get used to Angular a little more.
+Again, I followed the steps word for word until I completed the tutorial. For additional practice, I incorporated the delete button into the hero-detail component, putting the same functions in and routing the user to the heroes tab with the deleted hero off the list. This helped me get used to Angular a little more.
 
 After the tutorial, I wanted to learn about html and css more to better code in Angular, so I did a few tutorials over those languages.
+Also did the tutorial here (https://coursetro.com/posts/code/154/Angular-6-Tutorial---Learn-Angular-6-in-this-Crash-Course)
 
