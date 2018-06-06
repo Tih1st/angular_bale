@@ -15,3 +15,25 @@ Again, I followed the steps word for word until I completed the tutorial. For ad
 After the tutorial, I wanted to learn about html and css more to better code in Angular, so I did a few tutorials over those languages.
 Also did the tutorial here (https://coursetro.com/posts/code/154/Angular-6-Tutorial---Learn-Angular-6-in-this-Crash-Course)
 
+## Static Website Hosting (Tour of Heroes)
+Result (http://testing-angular.s3-website.us-east-2.amazonaws.com/dashboard)
+Run ng build in terminal, upload all files in new dist folder to bucket,add this to permissions
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadForGetBucketObjects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::bucket-name/*"
+        }
+    ]
+}
+
+Change bucket-name to your own bucket name.
+
+Set-up static website hosting in Properties, enter ndex.html for the index and leave error blank. 
+Now click the link to be directed to your angular app!
+
