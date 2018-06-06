@@ -34,6 +34,8 @@ Run ng build in terminal, upload all files in new dist folder to bucket,add this
 
 Change bucket-name to your own bucket name.
 
-Set-up static website hosting in Properties, enter ndex.html for the index and leave error blank. 
+Set-up static website hosting in Properties, enter index.html for the index and leave error blank. 
 Now click the link to be directed to your angular app!
+
+A more detailed guide will be made for aws soon
 
