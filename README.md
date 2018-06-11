@@ -38,7 +38,7 @@ Create a new amazon s3 bucket, choose any valid bucket name, set Manage public p
 ```
 Change bucket-name to your own bucket name.
 
-Go back to your tour of heroes project and run ng build. This command will create a new dist file, in which you will upload to the bucket. At this point, the website should be up and running.
+Go back to your tour of heroes project and run **ng build**. This command will create a new dist file, in which you will upload to the bucket. At this point, the website should be up and running.
 
 Now click the link found in the properties tab, in Static website hosting, and you will be be directed to your angular app!
 
