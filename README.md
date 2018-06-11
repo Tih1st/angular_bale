@@ -20,7 +20,8 @@ Sucessfully hosted the Tour of Heroes site on Amazon s3
 
 Result (http://testing-angular.s3-website.us-east-2.amazonaws.com/dashboard)
 
-Run ng build in terminal, upload all files in new dist folder to bucket,add this to permissions
+Create a new amazon s3 bucket, choose any valid bucket name, set Manage public permissions to Grant public permission. After this, go to properties tab, open Static Website Hosting and in the space for the index document, just enter index.html. We do not require an error document for this project. Afterwards, go to the permissions tab, into bucket policy, and add the below code in.
+
 ```
 {
     "Version": "2012-10-17",
@@ -37,8 +38,8 @@ Run ng build in terminal, upload all files in new dist folder to bucket,add this
 ```
 Change bucket-name to your own bucket name.
 
-Set-up static website hosting in Properties, enter index.html for the index and leave error blank. 
-Now click the link to be directed to your angular app!
+Go back to your tour of heroes project and run ng build. This command will create a new dist file, in which you will upload to the bucket. At this point, the website should be up and running
+Now click the link found in the properties tab, in Static website hosting, and you will be be directed to your angular app!
 
-A more detailed guide will be made for aws soon
+
 
