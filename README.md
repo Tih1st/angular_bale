@@ -16,9 +16,12 @@ After the tutorial, I wanted to learn about html and css more to better code in 
 Also did the tutorial here (https://coursetro.com/posts/code/154/Angular-6-Tutorial---Learn-Angular-6-in-this-Crash-Course)
 
 ## Static Website Hosting (Tour of Heroes)
+Sucessfully hosted the Tour of Heroes site on Amazon s3
+
 Result (http://testing-angular.s3-website.us-east-2.amazonaws.com/dashboard)
+
 Run ng build in terminal, upload all files in new dist folder to bucket,add this to permissions
-'''
+```
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -31,7 +34,7 @@ Run ng build in terminal, upload all files in new dist folder to bucket,add this
         }
     ]
 }
-'''
+```
 Change bucket-name to your own bucket name.
 
 Set-up static website hosting in Properties, enter index.html for the index and leave error blank. 
