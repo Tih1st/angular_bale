@@ -18,7 +18,7 @@ Also did the tutorial here (https://coursetro.com/posts/code/154/Angular-6-Tutor
 ## Static Website Hosting (Tour of Heroes)
 Result (http://testing-angular.s3-website.us-east-2.amazonaws.com/dashboard)
 Run ng build in terminal, upload all files in new dist folder to bucket,add this to permissions
-
+'''
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -31,7 +31,7 @@ Run ng build in terminal, upload all files in new dist folder to bucket,add this
         }
     ]
 }
-
+'''
 Change bucket-name to your own bucket name.
 
 Set-up static website hosting in Properties, enter index.html for the index and leave error blank. 
